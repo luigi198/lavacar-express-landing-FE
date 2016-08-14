@@ -1,27 +1,19 @@
 import React from 'react';
+import Grid from 'react-bootstrap/lib/Grid';
+import Header from './header.component.jsx';
+import Footer from './footer.component.jsx';
+import ImgCarrousel from './imgCarrousel.component.jsx';
 
-class App extends React.Component {
-    constructor() {
-        super();
-        this.state = {
-            messages: [
-                'hello there how are you?',
-                'I am fine, how are you?'
-            ]
-        };
-    };
-
+export default React.createClass({
     render() {
-        var messageNodes = this.state.messages.map((message) => {
-            return (
-                <div>{message}</div>
-            );
-        });
+        return <Grid>
+            <Header></Header>
 
-        return(
-            <div>{messageNodes}</div>
-        );
+            <ImgCarrousel></ImgCarrousel>
+
+            {this.props.children}
+
+            <Footer></Footer>
+        </Grid>
     }
-};
-
-export default App;
+})

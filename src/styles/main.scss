@@ -1,0 +1,111 @@
+@font-face{
+	font-family: 'EastMarket';
+	src: url('/src/styles/fonts/EastMarket-webfont.eot');
+	src: url('/src/styles/fonts/EastMarket-webfont.eot?iefix') format('eot'),
+	     url('/src/styles/fonts/EastMarket-webfont.woff') format('woff'),
+	     url('/src/styles/fonts/EastMarket-webfont.ttf') format('truetype'),
+	     url('/src/styles/fonts/EastMarket-webfont.svg#webfont') format('svg');
+}
+
+body {
+    background: url('/public/assets/background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#container {
+
+    .nav-item {
+        font-family: 'EastMarket';
+        font-size: 24px;
+
+        &.active {
+            a {
+                background-color: #caca9f;
+            }
+        }
+
+        a {
+            background-color: #8DB9BA;
+            color: #2A464F;
+            &:hover {
+                background-color: #caca9f;
+            }
+        }
+    }
+
+    .carousel-inner {
+        .item {
+            .carrousel-img-container {
+                width: 600px;
+                height: 400px;
+                margin: 0 auto;
+            }
+
+            .carousel-caption {
+                font-family: 'EastMarket';
+                color: #e6e6d2;
+            }
+        }
+    }
+
+    .data-info-container {
+        border: 1px solid #DDDDDD;
+        border-radius: 4px;
+        margin-top: 20px;
+        padding: 20px 20px 20px 20px;
+
+        .afiche-container {
+            img {
+                width: 100%;
+                max-height: 365px;
+            }
+        }
+
+        &.middle-container {
+            min-height: calc(100vh - 56px - 400px - 103px);
+        }
+
+        &.contact-info-container {
+            font-family: 'EastMarket';
+            font-size: 18px;
+            color: #2A464F;
+
+            .contact-icon-container {
+                width: 30px;
+                display: inline-block;
+            }
+        }
+
+        &.aboutUs-info-container {
+            font-family: 'EastMarket';
+            font-size: 18px;
+            color: #2A464F;
+
+            h4 {
+                font-size: 24px;
+            }
+        }
+
+        &.footer-container {
+            font-family: 'EastMarket';
+            font-size: 16px;
+            color: #2A464F;
+            background-color: #8DB9BA;
+            border-bottom: 0;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+
+            .footer-center {
+                text-align: center;
+            }
+
+            .footer-right {
+                text-align: right;
+            }
+        }
+    }
+
+}
