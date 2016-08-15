@@ -62,6 +62,22 @@ body {
                 width: 100%;
                 max-height: 365px;
             }
+
+            @media only screen and (min-width: 767px) {
+                text-align: center;
+
+                img {
+                    width: auto;
+                    max-height: none;
+                }
+            }
+
+            @media only screen and (min-width: 992px) {
+                img {
+                    width: 100%;
+                    max-height: 365px;
+                }
+            }
         }
 
         &.middle-container {
@@ -77,6 +93,30 @@ body {
                 width: 30px;
                 display: inline-block;
             }
+
+            @media only screen and (min-width: 767px) {
+                font-size: 28px;
+
+                .contact-info-details {
+                    font-size: 28px;
+
+                    h4 {
+                        font-size: 34px;
+                    }
+                }
+            }
+
+            @media only screen and (min-width: 992px) {
+                font-size: 18px;
+
+                .contact-info-details {
+                    font-size: 18px;
+
+                    h4 {
+                        font-size: 18px;
+                    }
+                }
+            }
         }
 
         &.aboutUs-info-container {
@@ -86,6 +126,22 @@ body {
 
             h4 {
                 font-size: 24px;
+            }
+
+            @media only screen and (min-width: 767px) {
+                font-size: 28px;
+
+                h4 {
+                    font-size: 34px;
+                }
+            }
+
+            @media only screen and (min-width: 992px) {
+                font-size: 18px;
+
+                h4 {
+                    font-size: 24px;
+                }
             }
         }
 
@@ -105,7 +161,14 @@ body {
             .footer-right {
                 text-align: right;
             }
+
+            @media only screen and (min-width: 767px) {
+                font-size: 12px;
+            }
+
+            @media only screen and (min-width: 992px) {
+                font-size: 16px;
+            }
         }
     }
-
 }
