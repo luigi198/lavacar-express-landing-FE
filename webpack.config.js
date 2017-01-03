@@ -4,8 +4,8 @@ var webpack = require('webpack');
 module.exports = {
     entry: {
         main: [
-            'webpack-dev-server/client?http://localhost:8080',
-            'webpack/hot/only-dev-server',
+            // 'webpack-dev-server/client?http://localhost:8080',
+            // 'webpack/hot/only-dev-server',
             './src/main.js'
         ]
     },
@@ -15,8 +15,8 @@ module.exports = {
         publicPath: '/public/'
     },
     plugins: [
-        new webpack.HotModuleReplacementPlugin(),
-        new webpack.NoErrorsPlugin()
+        // new webpack.HotModuleReplacementPlugin(),
+        // new webpack.NoErrorsPlugin()
     ],
     module: {
         loaders: [

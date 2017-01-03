@@ -1,14 +1,14 @@
 @font-face{
 	font-family: 'EastMarket';
-	src: url('/src/styles/fonts/EastMarket-webfont.eot');
-	src: url('/src/styles/fonts/EastMarket-webfont.eot?iefix') format('eot'),
-	     url('/src/styles/fonts/EastMarket-webfont.woff') format('woff'),
-	     url('/src/styles/fonts/EastMarket-webfont.ttf') format('truetype'),
-	     url('/src/styles/fonts/EastMarket-webfont.svg#webfont') format('svg');
+	src: url('/fonts/EastMarket-webfont.eot');
+	src: url('/fonts/EastMarket-webfont.eot?iefix') format('eot'),
+	     url('/fonts/EastMarket-webfont.woff') format('woff'),
+	     url('/fonts/EastMarket-webfont.ttf') format('truetype'),
+	     url('/fonts/EastMarket-webfont.svg#webfont') format('svg');
 }
 
 body {
-    background: url('/public/assets/background.jpg') no-repeat center center fixed;
+    background: url('/assets/background.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

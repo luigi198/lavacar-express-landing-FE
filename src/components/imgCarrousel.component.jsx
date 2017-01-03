@@ -12,12 +12,12 @@ export default React.createClass({
         return <Carousel>
             <Carousel.Item>
                 <div className="carrousel-img-container">
-                    <img className="carrousel-img" width={this.state.width} height={this.state.height} alt="900x500" src="/public/assets/image1.jpg"/>
+                    <img className="carrousel-img" width={this.state.width} height={this.state.height} alt="900x500" src="/assets/image1.jpg"/>
                 </div>
             </Carousel.Item>
             <Carousel.Item>
                 <div className="carrousel-img-container">
-                    <img className="carrousel-img" width={this.state.width} height={this.state.height} alt="900x500" src="/public/assets/image4.jpg"/>
+                    <img className="carrousel-img" width={this.state.width} height={this.state.height} alt="900x500" src="/assets/image4.jpg"/>
                 </div>
                 <Carousel.Caption>
                     <h3>Lavado de motor</h3>
@@ -26,7 +26,7 @@ export default React.createClass({
             </Carousel.Item>
             <Carousel.Item>
                 <div className="carrousel-img-container">
-                    <img className="carrousel-img" width={this.state.width} height={this.state.height} alt="900x500" src="/public/assets/image5.jpg"/>
+                    <img className="carrousel-img" width={this.state.width} height={this.state.height} alt="900x500" src="/assets/image5.jpg"/>
                 </div>
                 <Carousel.Caption>
                     <h3>Lavado de motor</h3>

@@ -11,13 +11,13 @@ export default React.createClass({
         return <div className="data-info-container middle-container">
             <Row>
                 <Col xs={12} md={4} className="afiche-container">
-                    <img src="/public/assets/afiche-lavacar1.jpeg" />
+                    <img src="/assets/afiche-lavacar1.jpeg" />
                 </Col>
                 <Col xs={12} md={4} className="afiche-container">
-                    <img src="/public/assets/afiche-lavacar2.jpeg" />
+                    <img src="/assets/afiche-lavacar2.jpeg" />
                 </Col>
                 <Col xs={12} md={4} className="afiche-container">
-                    <img src="/public/assets/afiche-lavacar3.jpg" />
+                    <img src="/assets/afiche-lavacar3.jpg" />
                 </Col>
             </Row>
         </div>
